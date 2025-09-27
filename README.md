@@ -33,15 +33,33 @@ bun install
 
 This server requires the `PERPLEXITY_API_KEY` environment variable to be set.
 
-### 4. Running the Server
+### 4. Running the Server (Development)
 
-Execute the following command to start the MCP server:
+To run the server directly from the TypeScript source for development, execute the following command:
 
 ```bash
 bun run index.ts
 ```
 
 The server will start and listen for MCP messages on standard I/O.
+
+### 5. Building the Project
+
+You can also build the project into a single, optimized JavaScript file.
+
+```bash
+bun run build
+```
+
+This command compiles `index.ts` and places the output in `out/perplexity-search-mcp.js`.
+
+After building, you can run the compiled file directly:
+
+```bash
+bun out/perplexity-search-mcp.js
+or
+node out/perplexity-search-mcp.js
+```
 
 ## 🛠️ Tool Definition
 
