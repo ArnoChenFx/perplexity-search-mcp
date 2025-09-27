@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "bun build ./index.ts --target=bun --outfile=out/perplexity-search-mcp.js"
+    "build": "bun build ./index.ts --target=node --minify --outfile=dist/perplexity-search-mcp.js"
   },
   "devDependencies": {
     "@types/bun": "latest"

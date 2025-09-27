@@ -51,14 +51,14 @@ You can also build the project into a single, optimized JavaScript file.
 bun run build
 ```
 
-This command compiles `index.ts` and places the output in `out/perplexity-search-mcp.js`.
+This command compiles `index.ts` and places the output in `dist/perplexity-search-mcp.js`.
 
 After building, you can run the compiled file directly:
 
 ```bash
-bun out/perplexity-search-mcp.js
+bun dist/perplexity-search-mcp.js
 or
-node out/perplexity-search-mcp.js
+node dist/perplexity-search-mcp.js
 ```
 
 ## 🛠️ Tool Definition
