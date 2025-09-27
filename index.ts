@@ -2,6 +2,7 @@ import Perplexity from "@perplexity-ai/perplexity_ai";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import process from "node:process";
 
 // Read api key from environment variables
 const apiKey = process.env.PERPLEXITY_API_KEY;
