@@ -1,6 +1,6 @@
 # Perplexity Search MCP
 
-This is a tool based on the [Model Context Protocol (MCP)](https://mcp.dev) that wraps the search functionality of [Perplexity AI](https://www.perplexity.ai/) into a standardized tool that can be called via MCP.
+This is a tool based on the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) that wraps the search functionality of [Perplexity AI](https://www.perplexity.ai/) into a standardized tool that can be called via MCP.
 
 This project is built with TypeScript and runs on the [Bun](https://bun.sh/) runtime.
 
