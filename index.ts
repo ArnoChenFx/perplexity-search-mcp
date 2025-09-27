@@ -69,7 +69,7 @@ server.registerTool(
       content: [
         {
           type: "text",
-          text: JSON.stringify(search.results, null, 2),
+          text: JSON.stringify(search.results),
         },
       ],
     };

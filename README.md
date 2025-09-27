@@ -6,7 +6,7 @@ This project is built with TypeScript and runs on the [Bun](https://bun.sh/) run
 
 ## ✨ Features
 
--   Provides the `perplexity_search` tool via MCP.
+-   Provides the `perplexity-search` tool via MCP.
 -   Supports various parameters for Perplexity search, such as:
     -   `query`: A single or multiple search queries.
     -   `max_results`: Specifies the maximum number of results to return.
@@ -63,7 +63,7 @@ node dist/perplexity-search-mcp.js
 
 ## 🛠️ Tool Definition
 
-### `perplexity_search`
+### `perplexity-search`
 
 **Description**: Get ranked search results from Perplexity’s continuously refreshed index with advanced filtering and customization options.
 
