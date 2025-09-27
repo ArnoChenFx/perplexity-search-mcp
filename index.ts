@@ -17,7 +17,6 @@ const server = new McpServer({
 });
 
 // Add an addition tool
-
 const PerplexitySearchSchema = {
   query: z
     .union([
@@ -57,7 +56,7 @@ const PerplexitySearchSchema = {
 };
 
 server.registerTool(
-  "perplexity_search",
+  "perplexity-search",
   {
     title: "Perplexity Search",
     description:
