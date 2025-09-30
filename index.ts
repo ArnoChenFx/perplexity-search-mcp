@@ -49,10 +49,10 @@ const PerplexitySearchSchema = {
     .describe(
       "Controls the maximum number of tokens retrieved from each webpage during search processing. Higher values provide more comprehensive content extraction but may increase processing time.",
     ),
-  search_mode: z
-    .enum(["web", "academic", "sec"])
-    .optional()
-    .describe("Search mode：web or academic or sec"),
+  // search_mode: z
+  //   .enum(["web", "academic", "sec"])
+  //   .optional()
+  //   .describe("Search mode：web or academic or sec"),
 };
 
 server.registerTool(
